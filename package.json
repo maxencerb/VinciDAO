@@ -1,5 +1,5 @@
 {
-  "name": "polygon-box",
+  "name": "vinci-dao",
   "version": "1.0.0",
   "description": "A sample Truffle project that allows developers to deploy to the Polygon Matic PoS chain",
   "main": "truffle-config.js",
@@ -23,16 +23,18 @@
     "Truffle",
     "dapp"
   ],
-  "author": "Faina Shalts",
+  "author": "Maxence RABALLAND",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/truffle-box/polygon-box/issues"
+    "url": "https://github.com/maxencerb/VinciDAO/issues"
   },
-  "homepage": "https://github.com/truffle-box/polygon-box#readme",
+  "homepage": "https://github.com/maxencerb/VinciDAO",
   "devDependencies": {
     "@maticnetwork/maticjs": "^2.0.40",
     "@truffle/hdwallet-provider": "^1.4.2",
     "dotenv": "^9.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
 }
